@@ -24,4 +24,9 @@ Inicio
 
     ES <- ((L2<>L3) E ((L1<>L2) E (L1<>L2)))
     //Funciona da mesma forma que o anterior porem com a diferença no operador relacional, foi feita a troca de comparação por igualdade por comparação por diferença, codigo mantem funcionando misteriozamente
+
+    Escreval("Compatibilidade:")
+    Escreval("Equilatero : ", EQ)
+    Escreval("Escaleno : ", ES)
+    //Mostra o resultado para o usuario
 Fimalgoritmo
