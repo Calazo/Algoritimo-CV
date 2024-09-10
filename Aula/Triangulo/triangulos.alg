@@ -3,6 +3,12 @@ Algoritmo "triangulos"
 Var
     L1, L2, L3: Real
     //Variaveis referentes aos lados do triangulo
+
+    EQ, ES: Logico
+    //Variaveis referentes aos tipos de triangulo
+    //EQ -> Equilatero(3 lados iguais)
+    //ES -> Escaleno(3 lados diferentes)
+    
 Inicio
     Escreval("Primeiro lado : ")
     Leia(L1)
