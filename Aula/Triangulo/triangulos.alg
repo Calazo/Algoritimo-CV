@@ -22,4 +22,6 @@ Inicio
     //Aqui fazemos a verificação de cada lado do triangulo comparando eles com o lado 1, depois é feita uma comparação isolada do lado 2 com o lado 3, para garantia de funcionamento do codigo, pois é possivel que ambos sejam diferentes(Me retornando verdadeiro).
     //Esse codigo continua tendo um problema, pois esses operadores relacionais não me parecem a melhor opção para essa verificação, seria melhor usar alguma condicional, porem não faço ideia de como fazer isso em portugol :(, misteriozamente o codigo funciona mesmo com essa possivel falha
 
+    ES <- ((L2<>L3) E ((L1<>L2) E (L1<>L2)))
+    //Funciona da mesma forma que o anterior porem com a diferença no operador relacional, foi feita a troca de comparação por igualdade por comparação por diferença, codigo mantem funcionando misteriozamente
 Fimalgoritmo
