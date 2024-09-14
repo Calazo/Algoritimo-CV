@@ -1,0 +1,8 @@
+Algoritmo "TemperaturaCreuza"
+
+Var
+    F, C: Real
+
+Inicio
+    
+Fimalgoritmo
