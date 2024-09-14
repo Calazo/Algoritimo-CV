@@ -7,6 +7,6 @@ Inicio
     Escreval("Quantos fahrenheit esta no momento?")
     Leia(F)
     C <- ((F-32)/1.8)
-    Escreval("A temperatura no Brasil seria de ", C< "°C")
+    Escreval("A temperatura no Brasil seria de ", C, "°C")
     
 Fimalgoritmo
