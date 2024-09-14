@@ -1,7 +1,7 @@
 Algoritmo "Creuza"
 
 Var
-    AnoAtual, AnoNascimeto, Idade: Real
+    AnoAtual, AnoNascimento, Idade: Real
 
 Inicio
     Escreval("Qual ano estamos: ")
@@ -9,6 +9,6 @@ Inicio
     Escreval("Qual ano você nasceu: ")
     Leia(AnoNascimento)
     Idade <- AnoAtual-AnoNascimento
-    
+    Escreval("Você tem ", Idade, " anos de idade")
 
 Fimalgoritmo
