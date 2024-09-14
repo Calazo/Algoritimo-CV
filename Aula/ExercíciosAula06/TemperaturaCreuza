@@ -4,5 +4,7 @@ Var
     F, C: Real
 
 Inicio
+    Escreval("Quantos fahrenheit esta no momento?")
+    Leia(F)
     
 Fimalgoritmo
