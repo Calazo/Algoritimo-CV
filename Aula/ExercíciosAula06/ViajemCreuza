@@ -1,12 +1,13 @@
 Algoritmo "ViajemDaCreuza"
 
 Var
-    Dolar, Real, Carteira: Real
+    US$, R$, Carteira: Real
 
 Inicio
     Escreval("Quanto tenho em reais?")
-    Leia(Real)
-    Dolar <- 5.56
-    Carteira <- Real / Dolar
+    Leia(R$)
+    US$ <- 5.56
+    Carteira <- R$ / US$
+    Escreval("Tenho no total US$", Carteira, " dólares.")
 
 Fimalgoritmo
