@@ -1,7 +1,8 @@
 Algoritmo "Creuza"
 
 Var
-
+    AnoAtual, AnoNascimeto, Idade: Real
+     
 Inicio
 
 Fimalgoritmo
