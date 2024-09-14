@@ -7,5 +7,6 @@ Inicio
     Escreval("Quanto tenho em reais?")
     Leia(Real)
     Dolar <- 5.56
-    
+    Carteira <- Real / Dolar
+
 Fimalgoritmo
