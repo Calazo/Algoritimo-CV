@@ -8,6 +8,7 @@ Inicio
     Leia(AnoAtual)
     Escreval("Qual ano você nasceu: ")
     Leia(AnoNascimento)
+    Idade <- AnoAtual-AnoNascimento
     
 
 Fimalgoritmo
