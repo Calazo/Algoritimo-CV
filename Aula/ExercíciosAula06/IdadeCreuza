@@ -2,7 +2,12 @@ Algoritmo "Creuza"
 
 Var
     AnoAtual, AnoNascimeto, Idade: Real
-     
+
 Inicio
+    Escreval("Qual ano estamos: ")
+    Leia(AnoAtual)
+    Escreval("Qual ano você nasceu: ")
+    Leia(AnoNascimento)
+    
 
 Fimalgoritmo
