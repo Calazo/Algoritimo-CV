@@ -6,5 +6,6 @@ Var
 Inicio
     Escreval("Qual o valor do produto?")
     Leia(Prodruto)
-    
+    Taxa <-((Produto*60)/100)
+    PosTaxa <-Taxa+Produto
 Fimalgoritmo
