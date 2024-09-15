@@ -11,4 +11,12 @@ Inicio
     Escreva("Ano de Nascimento (yyyy) :")
     Leia(AnoNascimento)
 
+    Idade <- AnoAtual-AnoNascimento
+
+    se (Idade >=) entao
+        Escreval("Você é maior de idade, é apto para tirar Carteira")
+    senao
+        Escreval("Você é menor de idade, você ainda não pode tirar carteira")
+    FimSe
+    
 Fimalgoritmo
