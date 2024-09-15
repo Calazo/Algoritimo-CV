@@ -16,9 +16,10 @@ Inicio
     IMC <- Massa/(Altura^2)
     
     Se ((IMC>=18.5) E (IMC<=25)) entao
-        Escreval("Você está dentro do seu peso ideal, o seu IMC é de ", IMC)
+        Escreval("Você está dentro do seu peso ideal, o seu IMC é de ", IMC:5:2) 
+        // :5:2 ->5 casas ao todo e 2 casas decimais
     senao
-        Escreval("Você está fora do seu peso ideal, o seu IMC é de ",IMC)
+        Escreval("Você está fora do seu peso ideal, o seu IMC é de ",IMC:5:2)
     FimSe 
 
-Fimalgoritmo
+Fimalgoritmo 
