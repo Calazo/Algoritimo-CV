@@ -1,0 +1,21 @@
+Algoritmo "Creuza"
+
+Var
+    AnoAtual, AnoNascimento, Idade: Real
+
+Inicio
+    Escreval("Qual ano estamos: ")
+    Leia(AnoAtual)
+    Escreval("Qual ano você nasceu: ")
+    Leia(AnoNascimento)
+    Idade <- AnoAtual-AnoNascimento
+    Escreva("Você tem ", Idade, " anos de idade")
+
+    //Condicional
+    Se (Idade >= 21) entao
+        Escreval(", você já está na maior idade")
+    senao
+        Escreval(", você ainda não está na maior idade")
+    FimSe
+
+Fimalgoritmo
