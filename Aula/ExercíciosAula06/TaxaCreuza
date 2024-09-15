@@ -4,6 +4,7 @@ Var
     Prodruto, Taxa, PosTaxa: Real
 
 Inicio
+    Escreval("Qual o valor do produto?")
+    Leia(Prodruto)
     
-
 Fimalgoritmo
