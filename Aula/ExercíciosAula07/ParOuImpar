@@ -4,5 +4,14 @@ Var
     Numero:Real
 
 Inicio
-    
+    Escreval("Me de um numero?")
+    Leia(Numero)
+
+    Se (numero%2 = 0 ) entao 
+    //%(modulo) -> resto da divisão
+        Escreval("Seu numero é par")
+    senao
+        Escreval("Seu numero é impar")
+    FimSe
+
 Fimalgoritmo
