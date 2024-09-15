@@ -5,6 +5,12 @@ Var
     Massa, Altura, IMC:Real
 
 Inicio
+    Escreval("Vamos calcular o seu IMC(indice de massa corporal)")
+    Escreval("Pra isso vamos precisar de alguns dados, gentileza preencher:")
+    Escreval("Massa:")
+    Leia(Massa)
+    Escreval("Altura:")
+    Leia(Altura)
     
 
 Fimalgoritmo
