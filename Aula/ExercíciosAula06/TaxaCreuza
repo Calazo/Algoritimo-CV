@@ -1,8 +1,9 @@
 Algoritmo "Taxa"
 
 Var
-    
+    Prodruto, Taxa, PosTaxa: Real
 
 Inicio
+    
 
 Fimalgoritmo
