@@ -5,5 +5,7 @@ Var
     Emprestimo, Juros, PosJuros: Real
 
 Inicio
+    Escreval("Qual o valor do emprestimo?")
+    Leia(Emprestimo)
     
 Fimalgoritmo
