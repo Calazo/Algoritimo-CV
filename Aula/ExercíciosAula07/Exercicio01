@@ -1,7 +1,14 @@
 Algoritmo "Carteira"
 
 Var
-
+    AnoAtual, AnoNascimento,Idade: Real
 Inicio
+    Escreval("--------------------------")
+    Escreval(" DEPARTAMENTO DE TRANSITO ")
+    Escreval("--------------------------")
+    Escreva("Ano Atual (yyyy) :")
+    Leia(AnoAtual)
+    Escreva("Ano de Nascimento (yyyy) :")
+    Leia(AnoNascimento)
 
 Fimalgoritmo
