@@ -1,7 +1,8 @@
 Algoritmo "Condicional1"
 
 Var
+    Numero:Real
 
 Inicio
-
+    
 Fimalgoritmo
