@@ -11,4 +11,9 @@ Inicio
     Idade <- AnoAtual-AnoNascimento
     Escreval("Você tem ", Idade, " anos de idade")
 
+    //Condicional
+    Se (Idade >= 21) entao
+        Escreval("você já está na maior idade")
+    FimSe
+
 Fimalgoritmo
