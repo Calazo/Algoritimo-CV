@@ -16,6 +16,8 @@ Inicio
     Escreval("O valor final do emprestimo junto ao juros é de R$", PosJuros)
 
     //Parcela
-
+    Escreval("Deseja parcelar em quantas vezes?)
+    Leia("Parcela")
+    
 
 Fimalgoritmo
