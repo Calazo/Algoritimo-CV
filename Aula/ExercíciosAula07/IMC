@@ -7,10 +7,18 @@ Var
 Inicio
     Escreval("Vamos calcular o seu IMC(indice de massa corporal)")
     Escreval("Pra isso vamos precisar de alguns dados, gentileza preencher:")
-    Escreval("Massa:")
+    Escreval("Somente numeros Ex: 60, 1.74, 30 ...")
+    Escreval("Massa(Peso):")
     Leia(Massa)
     Escreval("Altura:")
     Leia(Altura)
+
+    IMC <- Massa/(Altura^2)
     
+    Se ((IMC>=18.5) E (IMC<=25)) entao
+        Escreval("Você está dentro do seu peso ideal, o seu IMC é de ", IMC)
+    senao
+        Escreval("Você está fora do seu peso ideal, o seu IMC é de ",IMC)
+    FimSe 
 
 Fimalgoritmo
