@@ -9,9 +9,9 @@ Inicio
 
     Se (numero%2 = 0 ) entao 
     //%(modulo) -> resto da divisão
-        Escreval("Seu numero é par")
+        Escreval("O numero ", Numero, " é par")
     senao
-        Escreval("Seu numero é impar")
+        Escreval("O numero ", Numero, " é impar")
     FimSe
 
 Fimalgoritmo
