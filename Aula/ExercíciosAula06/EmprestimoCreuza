@@ -5,9 +5,11 @@ Var
     Emprestimo, Juros, PosJuros: Real
 
 Inicio
+    //Juros
     Escreval("Qual o valor do emprestimo?")
     Leia(Emprestimo)
     Juros <- (Emprestimo*20)/100
     PosJuros<- Emprestimo+Juros
-    
+    Escreval("O valor final do emprestimo junto ao juros é de R$", PosJuros)
+
 Fimalgoritmo
