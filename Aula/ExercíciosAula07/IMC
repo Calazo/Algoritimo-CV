@@ -1,7 +1,10 @@
 Algoritmo "IMC"
 
 Var
-    
+    //IMC
+    Massa, Altura, IMC:Real
+
 Inicio
+    
 
 Fimalgoritmo
