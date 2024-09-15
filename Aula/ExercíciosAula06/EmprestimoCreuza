@@ -1,7 +1,9 @@
 Algoritmo "Emprestimo"
-    
+
 Var
+    //Juros
+    Emprestimo, Juros, PosJuros: Real
 
 Inicio
-
+    
 Fimalgoritmo
