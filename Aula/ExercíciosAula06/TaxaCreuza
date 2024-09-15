@@ -1,11 +1,14 @@
 Algoritmo "Taxa"
 
 Var
-    Prodruto, Taxa, PosTaxa: Real
+    Produto, Taxa, PosTaxa: Real
 
 Inicio
     Escreval("Qual o valor do produto?")
-    Leia(Prodruto)
+    Leia(Produto)
     Taxa <-((Produto*60)/100)
     PosTaxa <-Taxa+Produto
+    Escreval("O valor da taxa é de US$", Taxa)
+    Escreval("O valor final do produto já com a taxa é de US$", PosTaxa)
+
 Fimalgoritmo
