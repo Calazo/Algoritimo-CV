@@ -9,7 +9,7 @@ Inicio
     Escreval("Qual ano você nasceu: ")
     Leia(AnoNascimento)
     Idade <- AnoAtual-AnoNascimento
-    Escreval("Você tem ", Idade, " anos de idade")
+    Escreva("Você tem ", Idade, " anos de idade ")
 
     //Condicional
     Se (Idade >= 21) entao
