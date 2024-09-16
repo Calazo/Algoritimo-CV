@@ -1,7 +1,7 @@
 Algoritmo "Nota"
 
 Var
-N1, N2:real
+N1, N2, M:real
 
 Inicio
 Escreval("-----------------------")  
@@ -12,6 +12,18 @@ Leia(N1)
 Escreva("Segunda Nota: ")
 Leia(N2)
 
+M <- (N1+N2)/2
 
+se(M >= 7) entao
+    Escreval("-----------------------")  
+    Escreval(" MEDIA: ", M:4:2)
+    Escreval(" ALUNO APROVADO")
+    Escreval("-----------------------")  
+senao
+    Escreval("-----------------------")  
+    Escreval(" MEDIA: ", M:4:2)
+    Escreval(" ALUNO REPROVADO")
+    Escreval("-----------------------") 
+FimSe
 
 Fimalgoritmo
