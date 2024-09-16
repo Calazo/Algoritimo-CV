@@ -1,7 +1,17 @@
 Algoritmo "Nota"
 
 Var
+N1, N2:real
 
-Inicio  
+Inicio
+Escreval("-----------------------")  
+Escreval(" ESCOLA JAVALI CANSADO ")
+Escreval("-----------------------") 
+Escreva("Primeira Nota: ")
+Leia(N1) 
+Escreva("Segunda Nota: ")
+Leia(N2)
+
+
 
 Fimalgoritmo
