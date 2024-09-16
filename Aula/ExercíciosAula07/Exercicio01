@@ -13,10 +13,16 @@ Inicio
 
     Idade <- AnoAtual-AnoNascimento
 
-    se (Idade >=) entao
-        Escreval("Você é maior de idade, é apto para tirar Carteira")
+    se (Idade >= 18) entao
+        Escreval("------- STATUS ---------")
+        Escreval(" IDADE: ", Idade, " ANOS ")
+        Escreval(" APTO A TIRAR CARTEIRA")
+        Escreval("------------------------")
     senao
-        Escreval("Você é menor de idade, você ainda não pode tirar carteira")
+        Escreval("------- STATUS -----------")
+        Escreval(" IDADE: ", Idade, " ANOS ")
+        Escreval(" INAPTO A TIRAR CARTEIRA")
+        Escreval("--------------------------")
     FimSe
     
 Fimalgoritmo
