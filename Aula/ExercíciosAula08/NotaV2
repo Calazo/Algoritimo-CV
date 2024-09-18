@@ -3,5 +3,9 @@ Algoritmo "NotaV2"
 Var
 
 Inicio
+    Escreval("Primeira nota: ")
+    Leia(N1)
+    Escreval("Segunda nota: ")
+    Leia(N2)
     
 Fimalgoritmo
