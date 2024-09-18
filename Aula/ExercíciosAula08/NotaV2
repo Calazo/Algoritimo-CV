@@ -7,5 +7,6 @@ Inicio
     Leia(N1)
     Escreval("Segunda nota: ")
     Leia(N2)
+    M <- (N1 + N2)/2
     
 Fimalgoritmo
