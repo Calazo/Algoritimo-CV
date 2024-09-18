@@ -1,0 +1,44 @@
+Algoritmo "IMCV2"
+
+Var
+    //IMC
+    Massa, Altura, IMC:Real
+
+Inicio
+    Escreval("Vamos calcular o seu IMC(indice de massa corporal)")
+    Escreval("Pra isso vamos precisar de alguns dados, gentileza preencher:")
+    Escreval("Somente numeros Ex: 60, 1.74, 30 ...")
+    Escreval("Massa(Peso):")
+    Leia(Massa)
+    Escreval("Altura:")
+    Leia(Altura)
+
+    IMC <- Massa/(Altura^2)
+    
+    Se (IMC <17) entao
+        Escreval("Você está muito abaixo do seu peso ideal, o seu IMC é de ", IMC:5:2)
+    senao
+        Se (IMC >=17) e (IMC <18.5) entao
+            Escreval("Você está abaixo do seu peso ideal, o seu IMC é de ", IMC:5:2)
+        senao
+            Se (IMC >=18.5) e (IMC <25) entao
+                Escreval("Você está no seu peso ideal, o seu IMC é de ", IMC:5:2)
+            senao
+                Se (IMC >=25) e (IMC <30) entao
+                    Escreval("Você está sobrepeso, o seu IMC é de ", IMC:5:2)
+                senao
+                    Se (IMC >=30) e (<35) entao
+                        Escreval("Você está no estado de obesidade, o seu IMC é de ", IMC:5:2)
+                    senao
+                        Se (IMC >=35) e (IMC <40) entao
+                            Escreval("Você está no estado de obesidade severa, o seu IMC é de ", IMC:5:2)
+                        senao
+                            Escreval("Você está no estado de obesidade mórbida, o seu IMC é de ", IMC:5:2)
+                        FimSe 
+                    FimSe
+                FimSe
+            FimSe 
+        FimSe
+    FimSe 
+
+Fimalgoritmo 
