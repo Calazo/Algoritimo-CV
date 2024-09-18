@@ -1,0 +1,14 @@
+Algoritmo "DependentesFuncionario"
+Var
+    Nome:Caractere
+    Sal: Real
+    Dep: Inteiro
+Inicio
+    Escreva ("Qual o nome do Funcionario? ")
+    Leia(nome)
+    Escreva ("Qual o salario do Funcionario? ")
+    Leia(Sal)
+    Escreva ("Qual e a quantidade de dependentes? ")
+    Leia (Dep)
+    
+Fimalgoritmo
