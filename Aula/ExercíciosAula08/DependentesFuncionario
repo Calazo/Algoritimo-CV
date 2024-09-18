@@ -1,7 +1,7 @@
 Algoritmo "DependentesFuncionario"
 Var
     Nome:Caractere
-    Sal: Real
+    Sal, Nsal: Real
     Dep: Inteiro
 Inicio
     Escreva ("Qual o nome do Funcionario? ")
@@ -10,5 +10,15 @@ Inicio
     Leia(Sal)
     Escreva ("Qual e a quantidade de dependentes? ")
     Leia (Dep)
-    
+    Escolha Dep
+        Caso 0
+            Nsal <- Sal + (Sal*5/100)
+        Caso 1, 2, 3
+            Nsal <- Sal + (Sal*10/100)
+        Caso 4, 5, 6
+            Nsal <- Sal + (Sal*15/100)
+        OutroCaso
+            Nsal <- Sal + (Sal*18/100)
+    FimEscolha
+    Escreval("O novo salario de ", Nome, " sera de R$", Nsal:5:2)
 Fimalgoritmo
