@@ -1,7 +1,49 @@
 Algoritmo "Aproveitamento"
 
 Var
-
+    N1, N2, M: Real
 Inicio
+    Escreval("----------------------------------------")
+    Escreval("Primeira nota: ")
+    Leia(N1)
+    Escreval("Segunda nota: ")
+    Leia(N2)
+    Escreval("----------------------------------------")
+
+    M <- (N1+N2)/2
+
+    Se (M>=9) entao   
+        Escreval("Media: ", M:4:2)
+        Escreval("Aproveitamento: A")
+        Escreval("----------------------------------------")
+    senao
+        Se ((M<9) E (M>=8)) entao 
+            Escreval("Media: ", M:4:2)
+            Escreval("Aproveitamento: B")
+            Escreval("----------------------------------------")
+        senao
+            Se ((M<8) E (M>=7)) entao 
+                Escreval("Media: ", M:4:2)
+                Escreval("Aproveitamento: C")
+                Escreval("----------------------------------------")
+            senao
+                Se ((M<7) E (M>=6)) entao 
+                    Escreval("Media: ", M:4:2)
+                    Escreval("Aproveitamento: D")
+                    Escreval("----------------------------------------")
+                senao
+                    Se ((M<6) E (M>=5)) entao 
+                        Escreval("Media: ", M:4:2)
+                        Escreval("Aproveitamento: E")
+                        Escreval("----------------------------------------")
+                    senao
+                        Escreval("Media: ", M:4:2)
+                        Escreval("Aproveitamento: F")
+                        Escreval("----------------------------------------")
+                    FimSe
+                FimSe
+            FimSe
+        FimSe
+    FimSe
 
 Fimalgoritmo
