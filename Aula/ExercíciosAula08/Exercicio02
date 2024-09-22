@@ -20,7 +20,7 @@ Inicio
         Diferenca <- ATLETICO-CRUZEIRO
         Ganhador <- "ATLETICO"
         Se (Diferenca<=4) entao
-            Escolha (Diferenca) entao
+            Escolha (Diferenca) 
                 Caso 0
                     Status <- empate
                 Caso 1,2
