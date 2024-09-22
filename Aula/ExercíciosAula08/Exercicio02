@@ -1,7 +1,65 @@
 Algoritmo "futebol"
 
 Var
-    
+    ATLETICO, CRUZEIRO, GOLS, Diferenca,: Real
+    Status, Ganhador: Caractere
 Inicio
+    Escreval("         ATLETICO-MG X CRUZEIRO         ")
+    Escreval("----------------------------------------")
+    Escreval("Quantos gols do ATLETICO-MG: ")
+    Leia(ATLETICO)
+    Escreval("Quantos gols do CRUZEIRO: ")
+    Leia(CRUZEIRO)
+    Escreval("----------------------------------------")
+
+    GOLS <- ATLETICO+CRUZEIRO
+
+
+
+    Se (ATLETICO>CRUZEIRO) entao
+        Diferenca <- ATLETICO-CRUZEIRO
+        Ganhador <- "ATLETICO"
+        Se (Diferenca<=4) entao
+            Escolha (Diferenca) entao
+                Caso 0
+                    Status <- empate
+                Caso 1,2
+                    Status <- ascirrada
+                Caso 3,4,
+                    Status <- boa partida
+            FimEscolha
+
+            Escreval("Diferenca de gols: ", Diferenca)
+            Escreval("Status da partida: ", Status)
+            Escreval("----------------------------------------")        
+        senao
+            Escreval("Diferenca de gols: ", Diferenca)
+            Escreval("Status da partida: goleada")
+            Escreval("----------------------------------------") 
+        FimSe
+
+    senao
+        Diferenca <- CRUZEIRO-ATLETICO
+        Ganhador <- "CRUZEIRO"
+        Se (Diferenca<=4) entao
+            Escolha (Diferenca) entao
+                Caso 0
+                    Status <- empate
+                Caso 1,2
+                    Status <- ascirrada
+                Caso 3,4,
+                    Status <- boa partida
+            FimEscolha
+
+            Escreval("Diferenca de gols: ", Diferenca)
+            Escreval("Status da partida: ", Status)
+            Escreval("----------------------------------------")        
+        senao
+            Escreval("Diferenca de gols: ", Diferenca)
+            Escreval("Status da partida: goleada")
+            Escreval("----------------------------------------") 
+        FimSe
+
+    FimSe
 
 Fimalgoritmo
