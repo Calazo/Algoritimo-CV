@@ -1,0 +1,15 @@
+Algoritmo "somar10Numeros"
+Var
+    Conte, Soma, SomaF: Inteiro
+Inicio
+    Conte <- 0
+    SomaF <- 0
+    
+    Enquanto (Conte < 10) faca
+        Conte <- Conte + 1
+        Escreva("Me de um valor para soma : ")
+        Leia(Soma)
+        SomaF <- SomaF + Soma
+    FimEnquanto
+    Escreval("O valor final da soma desses numeros e de : ", SomaF)
+Fimalgoritmo
