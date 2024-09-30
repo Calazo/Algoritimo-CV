@@ -1,0 +1,12 @@
+Algoritmo "conte10Ate0"
+Var
+Contador: Inteiro
+
+Inicio
+Contador <- 10
+Enquanto (Contador > 0) faca
+    Escreval(Contador)
+    Contador <- Contador - 1
+FimEnquanto
+Escreval("você terminou de contar até ", Contador)
+Fimalgoritmo
