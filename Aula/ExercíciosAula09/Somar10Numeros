@@ -7,7 +7,7 @@ Inicio
     
     Enquanto (Conte < 10) faca
         Conte <- Conte + 1
-        Escreva("Me de um valor para soma : ")
+        Escreva("Me de o ", Conte, "º valor para soma : ")
         Leia(Soma)
         SomaF <- SomaF + Soma
     FimEnquanto
