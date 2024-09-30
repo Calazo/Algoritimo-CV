@@ -1,0 +1,14 @@
+Algoritmo "conte0Ate"
+Var
+    Final, Contador: Inteiro
+Inicio
+    Contador <- 0
+    Escreval("Deseja contar ate qual numero ?")
+    Leia(Final)
+    Enquanto (Contador < Final) faca
+        Escreval(Contador)
+        Contador <- Contador + 1
+    FimEnquanto
+    Escreval("Terminou de contar até ", Contador)
+
+Fimalgoritmo
