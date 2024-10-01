@@ -1,0 +1,23 @@
+Algoritmo "contagemInteligente"
+Var
+    In, Fi: Inteiro
+Inicio
+    Escreval("CONTAGEM INTELIGENTE")
+    Escreval("--------------------------------------------------------")
+    Escreva("Inicio: ")
+    Leia(In)
+    Escreva("Fim: ")
+    Leia(Fi)
+    Escreval("--------------------------------------------------------")
+    Escreval(" C O N T A N D O")
+    Escreval("--------------------------------------------------------")
+
+    Se (IN < Fi) entao
+        Enquanto (In < Fi) faca
+            Escreva(in"..  ")
+            in <- in + 1
+        FimEnquanto
+    senao
+
+    FimSe
+Fimalgoritmo
