@@ -1,15 +1,26 @@
 Algoritmo "somar10Numeros"
 Var
-    Conte, Soma, SomaF: Inteiro
+    Conte, Soma, SomaF, Maior: Inteiro
 Inicio
     Conte <- 0
     SomaF <- 0
-    
+    Maior <- 0
+
     Enquanto (Conte < 10) faca
         Conte <- Conte + 1
         Escreva("Me de o ", Conte, "º valor para soma : ")
         Leia(Soma)
         SomaF <- SomaF + Soma
+
+        
+        Se (Maior < Soma) entao
+            Maior <- Soma
+        FimSe
+
     FimEnquanto
-    Escreval("O valor final da soma desses numeros e de : ", SomaF)
+    
+    Escreval("--------------------------------------------------")
+    Escreval(" O valor final da soma desses numeros e de : ", SomaF)
+    Escreval(" O maior valor digitado e de : ", Maior)
+    Escreval("--------------------------------------------------")
 Fimalgoritmo
