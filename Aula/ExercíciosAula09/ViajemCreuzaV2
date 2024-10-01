@@ -1,7 +1,8 @@
 Algoritmo "ViajemDaCreuza"
 
 Var
-    RS, Carteira, C, V: Real
+    RS, Carteira: Real
+    C, V: Inteiro
 
 Inicio
     Escreval("-----------------------------------------------------")
