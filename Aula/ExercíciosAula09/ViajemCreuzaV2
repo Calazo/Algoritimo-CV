@@ -1,0 +1,26 @@
+Algoritmo "ViajemDaCreuza"
+
+Var
+    RS, Carteira, C, V: Real
+
+Inicio
+    Escreval("-----------------------------------------------------")
+    Escreva("Quantas conversões serão realizadas : ")
+    Leia(V)
+    C <- 1
+    Enquanto (C <= V) faca
+        Escreval("---Conversao N", C, "--------------------------------------")
+        Escreval("Quanto tenho em reais?")
+        Leia(RS)
+        Carteira <- RS / 5.56
+        Escreval("Tenho no total US$", Carteira, " dólares.")
+        C <- C + 1
+
+        Se (V = 1) entao
+            Escreval("-----------------------------------------------------")
+        FimSe
+    FimEnquanto
+    Se (V > 1) entao
+        Escreval("-----------------------------------------------------")
+    FimSe
+Fimalgoritmo
