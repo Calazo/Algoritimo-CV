@@ -12,12 +12,17 @@ Inicio
     Escreval(" C O N T A N D O")
     Escreval("--------------------------------------------------------")
 
-    Se (IN < Fi) entao
+    Se (In < Fi) entao
         Enquanto (In < Fi) faca
-            Escreva(in"..  ")
-            in <- in + 1
+            Escreval(In, "..  ")
+            In <- In + 1
         FimEnquanto
     senao
-
+        Enquanto (In > Fi) faca
+            Escreval(In, "..  ")
+            In <- In -1
+        FimEnquanto
     FimSe
+
+    Escreval("--------------------------------------------------------")
 Fimalgoritmo
