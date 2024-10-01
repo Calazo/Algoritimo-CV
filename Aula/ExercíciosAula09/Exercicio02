@@ -1,0 +1,35 @@
+Algoritmo "MelhorAluno"
+Var
+    QA, A: Inteiro
+    Nota, Maior: Real
+    Nome, MNome: Caractere 
+Inicio
+    Escreval("----------------------")
+    Escreval(" ESCOLA SAO SEBASTIAO")
+    Escreval("----------------------")
+    Escreva("Quantos alunos a turma tem: ")
+    Leia(QA)
+    Escreval("----------------------")
+    
+    A <- 0
+    Maior <- 0
+    
+    Enquanto (A < QA) faca
+        A <- A + 1
+        Escreval("ALUNO-", A)
+        Escreva("Nome do aluno: ")
+        Leia(Nome)
+        Escreva("Nota de ", Nome, ": ")
+        Leia(Nota)
+        Escreval("----------------------")
+
+        Se (Nota > Maior) entao
+            Maior <- Nota
+            MNome <- Nome
+        FimSe
+
+    FimEnquanto
+    
+    Escreval("O melhor aproveitamento foi de ", MNome, " com a nota ", Maior:4:2)
+
+Fimalgoritmo
