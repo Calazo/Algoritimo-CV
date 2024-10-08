@@ -1,0 +1,20 @@
+Algoritmo "NumeroPrimo"
+Var
+    C, N: Inteiro
+Inicio
+    C <- 1
+    ConteDiv <- 0
+    Escreva("Digite um numero: ")
+    Leia(N)
+    Repita
+        Escrea (C)
+        Se (N % C = 0) entao
+            ConteDiv <- ConteDiv + 1
+        FimSe
+        C <- C + 1
+    Ate (C>N)
+    Se (ConteDiv >2) entao
+        Escreval("O valor ", N, " nao e um numero primo")
+    senao
+        Escreval("O valor ", N, " e um numero primo")
+Fimalgoritmo
