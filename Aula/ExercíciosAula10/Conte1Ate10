@@ -1,0 +1,11 @@
+Algoritmo "Conta1a10"
+Var
+
+Inicio
+Cont <- 0
+Repita
+    Cont <- Cont + 1
+ Escreva(Cont, "...")
+Ate(Enquanto = 10)
+
+FimAlgoritmo
