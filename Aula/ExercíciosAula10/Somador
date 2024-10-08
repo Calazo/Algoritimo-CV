@@ -1,0 +1,16 @@
+Algoritmo "Somador"
+Var
+    N, S: Inteiro
+    Resp: Caractere
+Inicio
+    S <- 0
+    Resp <- "S"
+    Enquanto (Resp = "S") faca
+        Escreva ("Digite o valor ==> ")
+        Leia(N)
+        S <- S + N
+        Escreva("Voce quer continuar ? [S/N]")
+        Leia(Resp)
+    FimEnqunato
+    Escreval("A soma de todos valores é igual a ", S)
+Fimalgoritmo
