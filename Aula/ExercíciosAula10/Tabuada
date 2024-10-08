@@ -1,0 +1,24 @@
+Algoritmo "Conta1a10"
+Var
+ Cont, N, R: Inteiro
+ Resp: Caractere 
+Inicio
+Escreval("--------------------------------------------------------")
+Repita
+    Cont <- 0
+    Escreval("Qual numero quer saber a tabuada : ")
+    Leia(N)
+    Escreval("--------------------------------------------------------")
+
+    Repita
+        Cont <- Cont + 1
+        R <- N*Cont
+        Escreval(N, "x", Cont, ":", R)
+    Ate(Cont = 10)
+    
+    Escreval("--------------------------------------------------------")
+    Escreva("Deseja ver a tabuda de outro numero [S/N] : ")
+    Leia(Resp)
+    Escreval("--------------------------------------------------------")
+Ate(Resp = "N")
+FimAlgoritmo
