@@ -1,0 +1,33 @@
+Algoritmo "analisadorDeValores"
+Var
+    C, V, SV, DV, N, SP: Inteiro
+    M: Real
+Inicio
+    Para C <- 0 ate 5 passo 1 faca
+        Escreva("Me de o ", C, "° Valor :")
+        Leia(V)
+        
+        SV <- SV + V
+
+        Se (V%5=0) entao
+            DV <- DV + 1
+        FimSe
+
+        Se (V=0) entao
+            N <- N + 1
+        FimSe
+
+        Se (V%2=0) entao
+            SP <- SP + V
+        FimSe
+
+    FimPara
+
+    M <- SV/5
+
+    Escreval("A soma entre os valores e ", SV)
+    Escreval("A media entre os valores e ", M)
+    Escreval("Valores divisiveis por cinco:", DV)
+    Escreval("Valores nulos:", N)
+    Escreval("A soma dos valores pares e ", SP)
+Fimalgoritmo

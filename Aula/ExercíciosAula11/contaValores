@@ -1,0 +1,24 @@
+Algoritmo "contaValores"
+Var
+    V, C, Dentro, Somaim: Inteiro
+Inicio
+Escreval("Me diga os valores que vou te retornar quantos deses estao entre 0 e 10")
+
+Dentro <- 0
+Somaim <- 0
+
+Para C <- 1 ate 5 faca
+    Escreva("Valor ", C, ":")
+    Leia(V)
+    Se ((V>=0)E(V<=10)) entao
+        Dentro <- Dentro + 1
+    FimSe
+
+    Se (V%2=1) entao
+        Somaim <- Somaim + V
+    FimSe
+FimPara
+Escreval("Dos valores inseridos apenas", Dentro, "estao entre 0 e 10")
+Escreval("A soma dos valores impares inseridos é de : ", Somaim)
+
+Fimalgoritmo

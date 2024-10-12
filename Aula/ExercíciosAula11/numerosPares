@@ -1,0 +1,31 @@
+Algoritmo "numerosPares"
+Var
+    C, V: Inteiro
+    R: Caractere
+Inicio
+    Escreval(" Vamos te falar os numeros pares")
+    Escreva(" Ate qual valor deseja ver os numeros pares : ")
+    Leia(V)
+    Escreval("----------------------------------------------------------------")
+
+    Se (V%2=1) entao
+        V <- V - 1
+    FimSe
+
+    Escreva(" Deseja que a contagem seja progressiva ou regressiva [P/R] :")
+    Leia(R)
+    Escreval("----------------------------------------------------------------")
+
+    Se (R = "P") entao
+        Para C <- 0 ate V passo 2 faca
+            Escreval(C)
+        FimPara
+    senao
+        Para C <- V ate 0 passo -2 faca
+            Escreval(C)
+        FimPara
+    FimSe
+    
+    Escreval("----------------------------------------------------------------")
+
+Fimalgoritmo

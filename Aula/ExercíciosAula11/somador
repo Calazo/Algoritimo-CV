@@ -1,0 +1,18 @@
+Algoritmo "Somador"
+Var
+    C, N, S: Inteiro
+Inicio
+    S <- 0
+    Escreval("-----------------------------------")
+    Escreval("De os valores que vao ser somados")
+
+    Para C <- 1 ate 5 faca
+        Escreval("-----------------------------------")
+        Escreva("Digite um numero: ")
+        Leia(N)
+        S <- S + N
+    FimPara
+
+    Escreval("-----------------------------------")
+    Escreval("A soma dos valores é de : ", S)
+Fimalgoritmo
