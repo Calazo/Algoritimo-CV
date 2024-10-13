@@ -1,0 +1,17 @@
+Algoritmo "SomaFuncao"
+Var
+    V1,V2 : Inteiro
+ 
+Funcao Soma(A,B: Interio): Inteiro
+Inicio
+    Retorne B + B
+FimFuncao
+
+Inicio
+    Escreva("Digite o primeiro valor : ")
+    Leia(V1)
+    Escreva("Digite o segundo valor : ")
+    Leia(V2)
+    S <- Soma(V1,V2) //atribuição do valor de S
+    Escreval("A soma entre ", V1, " e ", V2, " e de : " S)
+Fimalgoritmo

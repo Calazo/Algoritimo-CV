@@ -1,0 +1,18 @@
+Algoritmo "ParOuImparProcedimento"
+Var
+    N:Inteiro
+
+Procedimento ParOuImpar(V:Inteiro)
+Inicio
+    Se(V%2=0) entao
+        Escreval(V, " é par")
+    senao   
+        Escreval(V, " é impar")
+    FimSe
+FimProcedimento
+
+Inicio
+    Escreva("Digite um numero: ")
+    Leia(N)
+    ParOuImpar(N)//Aqui atribuimos o valor do parametro
+Fimalgoritmo

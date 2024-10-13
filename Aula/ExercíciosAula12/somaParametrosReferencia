@@ -1,0 +1,17 @@
+Algoritmo "somaParametrosReferencia"
+Var
+    X, Y: Inteiro
+Procedimento Soma (A, B: Inteiro)
+    A <- A + 1
+    B <- B + 2
+    Escreval("Valor de A = ", A)
+    Escreval("Valor de B = ", B)
+    Escreval("Valor A + B = ", A+B)
+FimProcedimento
+Inicio
+    X <- 3
+    Y <- 5
+    Soma(X, Y)
+    Escreval("Valor de X = ", X)
+    Escreval("Valor de Y = ", Y)
+Fimalgoritmo

@@ -1,0 +1,18 @@
+Algoritmo "VerificadorParOuImpar"
+Var
+    N : Inteiro
+    R : Caractere
+
+Funcao ParOuImpar(A:Inteiro): Caractere
+    Se(A%2=0) entao
+        Retorne "Par"
+    senao
+        Retorne "Impar"
+    FimSe
+FimFuncao
+Inicio
+    Escreva("Digite um numero: ")
+    Leia(N)
+    R <- ParOuImpar(N)
+    Escreva("O numero ", N, " e um valor ", R)
+Fimalgoritmo
